@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- En-tête avec nom et photo -->
+    <!-- En-tête avec mon nom et ma photo -->
+
     <header>
         <div class="contenir ">
             <div class="gauche">
                 <div class="name">Djombo Edy</div>
                 <div class="surname">Dorgeles</div>
-                <p class="tagline">Étudiant en développement web et passionné par l’univers du numérique, je m’intéresse autant au code qu’au design et aux nouvelles technologies. J’aime apprendre, créer et relever des défis pour donner vie à des projets digitaux impactants.</p>
+                <p class="tagline">Étudiant en développement Web et passionné par l’univers du numérique, je m’intéresse autant au code qu’au design et aux nouvelles technologies. J’aime apprendre, créer et relever des défis pour donner vie à des projets digitaux impactants.</p>
             </div>
             <div class="droit">
                 <img src="images/5870464401322740680.jpg" alt="Photo de profil" class="profile-img">
@@ -23,13 +24,14 @@
     </header>
     
     <!-- Section "À propos de moi" -->
+
     <section id="about">
         <div class="container">
             <h2>À propos de moi</h2>
             <div class="section-content">
                 <div class="text-content">
-                    <p>Bonjour ! Je m'appelle <strong>Djombo Edy Dorgeles</strong>, je suis étudiant en <strong>DATA IA à SIMPLON Côte d'Ivoire</strong> . J'ai toujours été fasciné par la manière dont la technologie peut résoudre des problèmes complexes et améliorer notre quotidien.</p>
-                    <p>Après un baccalauréat scientifique, j'ai décidé de me spécialiser dans le <strong>développement web</strong>. J'apprécie particulièrement le côté créatif de ce domaine, qui allie logique et design.</p>
+                    <p>Bonjour ! Je me nomme <strong class="nm">Djombo Edy Dorgeles</strong>, je suis apprenant en <strong>DATA IA à SIMPLON Côte d'Ivoire</strong> . J'ai toujours été fasciné par la manière dont la technologie peut résoudre des problèmes complexes et améliorer notre quotidien.</p>
+                    <p>Après un baccalauréat scientifique, j'ai décidé de me spécialiser dans le <strong>développement web</strong>. Après l'obtention de mon Brevet d'étude Supérieure en IDA, je voulais explorer d'autres chose et je me suis lancé dans une formation IA PRODUCT CREATOR concernant l'IA et les différents logiciels de Graphic Designe. J'apprécie particulièrement le côté créatif de ce domaine, qui allie logique et design.</p>
                     <p>En dehors des études, j'aime beaucoup le <strong>Graphiste Design</strong>, contribuer à des projets open source et explorer de nouvelles technologies émergentes.</p>
                     
                     <h3 style="margin-top: 30px; color: #6a11cb;">Centres d'intérêt</h3>
@@ -52,7 +54,7 @@
     <!-- Section "Ma passion" -->
     <section id="passion">
         <div class="container">
-            <h2>Ma passion</h2>
+            <h2>Mes passions</h2>
             <div class="section-content">
                 <div class="visual-content">
                     <img src="images/1.png" alt="Photographie de paysage" class="passion-img">
@@ -85,13 +87,10 @@
     <!-- Pied de page -->
     <footer>
         <div class="container">
-            <p>Page personnelle créée avec HTML, CSS et JavaScript</p>
-            <p>© 2026 - Edy Dorgeles - Tous droits réservés</p>
+            <p>© 2025-2026 - Edy Dorgeles - Tous droits réservés</p>
             <div class="social-links">
                 <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target=""><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/dorgelesdebenzo4-ctrl" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
         </div>
     </footer>
@@ -124,12 +123,14 @@
         ];
         
         // Récupérer les éléments du DOM
+
         const messageBtn = document.getElementById('messageBtn');
         const messageBox = document.getElementById('messageBox');
         const messageTitle = document.getElementById('messageTitle');
         const messageText = document.getElementById('messageText');
         
         // Ajouter un événement au bouton
+        
         messageBtn.addEventListener('click', function() {
             // Choisir un message aléatoire
             const randomIndex = Math.floor(Math.random() * messages.length);
